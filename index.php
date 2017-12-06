@@ -12,7 +12,7 @@
     } */
 
     body {
-      background: #000;
+      background: #FFF;
       font-family: 'Lato', san-serif;
     }
 
@@ -20,11 +20,15 @@
       display: flex;
       flex-direction: column;
       color: white;
+      text-align: center;
+    }
+
+    h1, h2, h3, p {
+      color: #38C9C1;
     }
 
     h1 {
       font-size: 200px;
-      text-align: center;
       margin: 100px 0;
     }
 
@@ -43,6 +47,9 @@
     <?php
       echo "<h1>Hello World!</h1>";
       echo "<p>I am your php server!</p>"
+    ?>
+    <?php 
+      echo "<h2>What do you wanna build? 👷🏼‍</h2>"
     ?>
   </div>
 
