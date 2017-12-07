@@ -12,7 +12,7 @@
     } */
 
     body {
-      background: #FFF;
+      background: #000;
       font-family: 'Lato', san-serif;
     }
 
@@ -24,7 +24,7 @@
     }
 
     h1, h2, h3, p {
-      color: #38C9C1;
+      color: #FFF;
     }
 
     h1 {
