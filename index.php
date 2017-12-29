@@ -38,6 +38,12 @@
       margin-top: 0;
     }
 
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 150px;
+    }
+
   </style>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
@@ -51,6 +57,10 @@
     <?php 
       echo "<h2>What do you wanna build? 👷🏼‍</h2>"
     ?>
+  </div>
+
+  <div class="content">
+    <p><a href="tel:1-408-555-5555">1-408-555-5555</a></p>
   </div>
 
 </body>
